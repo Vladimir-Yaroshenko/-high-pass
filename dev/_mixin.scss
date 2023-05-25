@@ -1,0 +1,101 @@
+@mixin btnOrange {
+    display: flex;
+    width: 126px;
+    height: 50px;
+    padding: 15px 22px;
+    background-color: #FF6E30;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease-in-out, outline 0.3s ease-in-out;
+}
+
+@mixin btnWhite {
+  display: block;
+  width: 121px;
+  height: 50px;
+  padding: 15px 17px;
+  align-items: center;
+  border: 3px solid $orangeLight;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+  color: $textWhite;
+  outline: none;
+}
+
+@mixin teg1 {
+  ::before {
+    content: "#пейзаж";
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 85px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #202020;
+    color: $textWhite;
+  }
+}
+
+@mixin teg2 {
+  ::before {
+    content: "#портрет";
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 85px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #202020;
+    color: $textWhite;
+  }
+}
+
+@mixin teg3 {
+  ::before {
+    content: "#предмет";
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 85px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #202020;
+    color: $textWhite;
+  }
+}
+
+@mixin teg6 {
+  ::before {
+    content: "#ретушь";
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 85px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #202020;
+    color: $textWhite;
+  }
+}
+
+@mixin teg7 {
+  ::before {
+    content: "#портрет";
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 85px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #202020;
+    color: $textWhite;
+  }
+}
+
+
